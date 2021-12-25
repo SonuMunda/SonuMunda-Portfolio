@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu Munda | Portfolio</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" class="sideNav" id="navigation">
+            <div class="logo">
+                <h1 id="lft">Sonu</h1>
+                <h1 id="rht">Munda</h1>
+            </div>
+            <div class="menuBar" id="openNav">
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </div>
+            <div class="nav-overlay" id="nav-overlay" onclick="closeMenu()"></div>
+            <div class="navLinks" id="sideBar">
+                <div class="myPhoto">
+                    <img src="img/logo.jpg">
+                </div>
+                <div class="name">
+                    <h1>Sonu Munda</h1>
+                </div>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li onclick="closeMenu()"><a href="#about"><i class="fas fa-user-alt"></i> About</a></li>
+                    <li onclick="closeMenu()"><a href="#services"><i class="fab fa-servicestack"></i>Services</a> </li>
+                    <li onclick="closeMenu()"><a href="#skills"><i class="fas fa-backpack"></i> Skills</a></li>
+                    <li onclick="closeMenu()"><a href="#projects"><i class="fas fa-book-alt"></i> Projects</a></li>
+                    <li onclick="closeMenu()"><a href="#contact"><i class="fas fa-address-book"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="main" class="section-main">
+        <div class="main-container">
+            <div class="box" id="box-lft">
+                <h4 data-aos="fade-down">Hi There! I am</h4>
+                <h1 data-aos="fade-left">Sonu Munda</h1>
+                <h3 data-aos="fade-up-right">A Junior Web Developer</h3>
+                <p data-aos="fade-up">I am just a Junior Web Developer I can create a website in few Hours.</p>
+                <p data-aos="fade-up">To Know More about me click the button in the Below</p>
+                <div class="mainBtn" data-aos="fade-up"><a href="#about"><button> Click me </button></a> </div>
+            </div>
+            <div class="box" id="box-rht">
+                <img src="img/myphoto.png">
+            </div>
+        </div>
+    </section>
+    <section class="section-2" id="about">
+        <div class="about-container">
+            <div id="head-0" class="container-items" data-aos="fade-up">
+                <h4>About us</h4>
+            </div>
+            <div id="head-1" class="container-items" data-aos="flip-right">
+                <h1>Who Am I?</h1>
+            </div>
+            <div id="head1-p" class="container-items" data-aos="flip-up">
+                <p>I am Sonu Munda and I am a Student Passed my School by 73% marks in Commerce and I joined Chandigarh
+                    University to complete my studies Bachlers i.e (B.C.A) I am Learning WebDevelopment Now.</p>
+            </div>
+            <div class="toggle-Btn" data-aos="fade-in"> <a href="#services"><button>My Services</button></a></div>
+        </div>
+    </section>
+    <hr>
+    <section class="section-3" id="services">
+        <div class="services-container">
+            <h4 class="h-items" data-aos="fade-up-right">Services</h4>
+            <h2 class="h-items" data-aos="flip-up">As I am a Student Learning WebDeveloping So I do not provide any
+                Services yet.</h2>
+            <div class="toggle-Btn" data-aos="fade-in"> <a href="#skills"><button>My Skills</button></a></div>
+        </div>
+    </section>
+    <hr>
+    <section class="section-4" id="skills">
+        <div class="skills-container">
+            <div id="skills-head" data-aos="flip-left">
+                <h1>Skills</h1>
+            </div>
+            <div id="skills-box">
+                <div class="box-item" id="item-1" data-aos="slide-left">
+                    <h3>Html</h3>
+                    <div class="Bar-container">
+                        <div class="Bar" id="htmlBar">
+                            <h4 style="color: white;">70%</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-item" id="item-2" data-aos="slide-right">
+                    <h3>CSS</h3>
+                    <div class="Bar-container">
+                        <div class="Bar" id="cssBar">
+                            <h4 style="color: white;">50%</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-item" id="item-3" data-aos="slide-left">
+                    <h3>JavaScript</h3>
+                    <div class="Bar-container">
+                        <div class="Bar" id="jsBar">
+                            <h4 style="color: white;">10%</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="section-5" id="projects">
+        <div class="projects-container">
+            <div class="projects-head" data-aos="fade-up">
+                <h1>My Projects</h1>
+            </div>
+            <div class="box-container">
+                <div class="upper-boxes">
+                    <div class="box" id="box1" data-aos="fade-up">
+                        <a href="https://sonumunda.github.io/S.M-Academics.com/" target="_blank">
+                            <div class="box-img">
+                                <img src="img/school.jfif" alt="" srcset="">
+                            </div>
+                            <div class="box-head">
+                                <h2>School site</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box" id="box2" data-aos="fade-down">
+                        <a href="https://sonumunda.github.io/S.M-FoodFactory.com/" target="_blank">
+                            <div class="box-img">
+                                <img src="img/food.png" alt="" srcset="">
+                            </div>
+                            <div class="box-head">
+                                <h2>Food Website</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box" id="box3" data-aos="fade-up">
+                        <a href="https://sonumunda.github.io/S.M-Fitness.com/">
+                            <div class="box-img">
+                                <img src="img/gym.jfif" alt="" srcset="">
+                            </div>
+                            <div class="box-head">
+                                <h2>Fitness Website</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <div class="box" id="box4"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="section-6" id="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <a href="https://www.facebook.com/sonu.m.75685">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </div>
+            <div class="contact-box">
+                <a href="https://www.instagram.com/sonumunda_/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="contact-box">
+                <a href="mailto:roxsonu9@gmail.com">
+                    <i class="fab fa-google-plus"></i>
+                </a>
+            </div>
+            <div class="contact-box">
+                <a href="https://github.com/SonuMunda">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        copyright &copy; Sonu Munda 2021
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1000,
+        });
+
+    </script>
+</body>
+
+</html>
