@@ -1,14 +1,15 @@
 
 function openMenu() {
     let x = document.getElementById("sideBar");
+    let y = document.getElementById("nav-overlay");
 
 
     if (x.style.left === "-60%") {
         x.style.left = "0";
-        document.getElementById("nav-overlay").style.display = "block";
+        y.style.display = "block";
     } else {
         x.style.left = "-60%"
-        document.getElementById("nav-overlay").style.display = "none";
+        y.style.display = "none";
     }
 
 }
