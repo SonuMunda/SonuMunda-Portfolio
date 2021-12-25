@@ -18,9 +18,7 @@ html{scroll-behavior: smooth; font-family: 'Poppins', sans-serif;}
 .logo #lft{color: rgb(255, 255, 255);}
 .logo #rht{margin-left: 0.5rem; color: tomato;}
 
-.menuBar{display: none;}
-
-.closeMenu{display: none;}
+.menuBar{display: none; cursor:pointer;}
 
 .navbar .navLinks{margin-right: 2.5rem; }
 
