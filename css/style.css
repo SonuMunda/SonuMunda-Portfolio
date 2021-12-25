@@ -160,8 +160,6 @@ footer{height: 4vh; width: 100%; display: flex; align-items: center; justify-con
     html{font-size:76%;}
 
     .menuBar{display: block; color: rgb(255, 255, 255); margin-right: 1.5rem; font-size: 2rem;}
-
-    .menuBar:hover{color: tomato;}
     
     .navbar .navLinks{position: fixed; height: 100%; width: 60%; top: 10vh; left:-60%; background-color: black; transition: all 0.5s; border-right: 2px solid cyan;}
 
