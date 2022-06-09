@@ -106,6 +106,7 @@ html{scroll-behavior: smooth; font-family: 'Poppins', sans-serif;}
 
  .Bar-container .Bar{height: 100% ; display: flex; align-items: center; justify-content: center; background-color: rgb(140, 0, 255); border-radius: 7px;}
 
+ .Bar-container #javaBar{width: 70%;}
  .Bar-container #htmlBar{width: 70%;}
  .Bar-container #cssBar{width: 50%;}
  .Bar-container #jsBar{width: 10%;}
